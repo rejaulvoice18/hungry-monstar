@@ -29,7 +29,9 @@ function mealsData() {
                     `;
                     container.style.display = 'grid'
                 });
-                container.classList.remove('err-message')
+                container.classList.remove('err-message');
+                singleFoodContainer.style.display = 'none'
+
             } else {
                 htmlElement = "Sorry We didn't find any Food";
                 container.classList.add('err-message');
